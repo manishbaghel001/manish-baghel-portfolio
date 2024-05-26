@@ -45,9 +45,9 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.languageService.changeLanguage('en')
+    this.languageFormControl.valueChanges.subscribe(val => this.languageService.changeLanguage(val))
 
-    this.languageFormControl.setValue('en')
+    this.languageFormControl.setValue(this.languageService.language)
 
   }
 
@@ -79,6 +79,6 @@ export class HeaderComponent implements OnInit {
   }
 
   changeLanguage(language: string) {
-    this.languageFormControl.setValue('en');
+    this.languageFormControl.setValue(language);
   }
 }
