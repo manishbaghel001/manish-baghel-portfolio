@@ -47,38 +47,56 @@
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [
         {
-            "Title": "Gisselle",
-            "Description": "Web application for internal company management that covers sales, billing, and extensive and complex tracking departments, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It works with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>Laravel jobs</span>, integrations with WordPress, Zadarma, LiveConnect, etc.",
+            "Title": "Tasks-Todo",
+            "Description": "Crafted an innovative Todo Task Board website using <span class='underline'>Angular 16</span>, <span class='underline'>HTML</span>, and <span class='underline'>CSS</span> on the frontend, while ensuring robust functionality with <span class='underline'>Express</span> and <span class='underline'>MongoDB</span> on the backend. Secured user access through <span class='underline'>Firebase</span> authentication",
             "imgs": [
-                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
-                "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
-                "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
-                "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
-                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+                "assets/images/tasks-todo/tasks-todo_1.png",
+                "assets/images/tasks-todo/tasks-todo_2.png",
+                "assets/images/tasks-todo/tasks-todo_3.png",
+                "assets/images/tasks-todo/tasks-todo_4.png",
+                "assets/images/tasks-todo/tasks-todo_5.png",
+                "assets/images/tasks-todo/tasks-todo_6.png",
+                "assets/images/tasks-todo/tasks-todo_7.png",
+                "assets/images/tasks-todo/tasks-todo_8.png",
+                "assets/images/tasks-todo/tasks-todo_9.png",
+                "assets/images/tasks-todo/tasks-todo_10.png"
             ],
-            "ghLink": "https://github.com/andresjosehr/countries-viewer",
-            "demoLink": "https://projects.andresjosehr.com/countries-viewer",
+            "ghLink": "https://github.com/manishbaghel001/tasks",
+            "demoLink": "https://tasks-two-vert.vercel.app/",
             "Technologies": [
-                "Laravel",
                 "Angular",
-                "SASS",
-                "Angular Material",
-                "RxJS"
+                "HTML",
+                "ExpressJS",
+                "MongoDB",
+                "Firebase",
+                "Bootstrap"
             ]
         },
         {
-            "Title": "Hands game",
-            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+            "Title": "SRM Gym",
+            "Description": "A freelancing project developed in <span class='underline'>Angular</span> in which Gym Owner can handle all his client. It has <span class='underline'>tabular</span> view of all clients with <span class='underline'>add</span> / <span class='underline'>edit</span> user feature.",
             "imgs": [
-                "assets/images/hands-game.png"
+                "assets/images/srm-royal-gym/srm-royal-gym_1.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_2.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_3.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_4.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_5.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_6.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_7.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_8.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_9.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_10.png",
+                "assets/images/srm-royal-gym/srm-royal-gym_11.png"
             ],
-            "ghLink": "https://github.com/andresjosehr/hands-game",
-            "demoLink": "https://projects.andresjosehr.com/hands-game",
+            "ghLink": "https://github.com/manishbaghel001/SMR-Royal-Gym",
+            "demoLink": "https://smr-royal-gym.vercel.app",
             "Technologies": [
                 "Angular",
-                "CSS GRID",
+                "PrimeNg",
+                "Firebase",
+                "HTML",
                 "SASS",
-                "Angular animations"
+                "Firebase Store"
             ]
         }
     ],

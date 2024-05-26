@@ -1,23 +1,23 @@
 @import "./../../../../variables.scss";
 
-.about{
+.about {
 
-    .about-description{
+    .about-description {
         margin-top: 30px;
         max-width: 480px;
     }
 
-    .about-img-container{
+    .about-img-container {
         width: 324px;
         margin: auto;
 
-        &:after{
+        &:after {
             content: '';
             border: 2px solid $Green;
             z-index: 0;
             display: block;
             position: relative;
-            width: 394px;
+            width: 345px;
             height: 305px;
             border-radius: 3px;
             bottom: 290px;
@@ -25,30 +25,31 @@
 
         }
 
-        img{
+        img {
             z-index: 2;
             position: relative;
         }
     }
 
-    .skills-list{
+    .skills-list {
         display: grid;
-        grid-template-columns: repeat(2,minmax(140px,200px));
+        grid-template-columns: repeat(2, minmax(140px, 200px));
         overflow: hidden;
         padding: 0;
         margin: 20px 0 0 0;
         list-style: none;
     }
 
-    .skill-element{
+    .skill-element {
         position: relative;
         margin-bottom: 10px;
         padding-left: 20px;
         font-size: 13px;
         font-family: $CodeFont;
         color: $Slate;
-        span{
-          padding-bottom: 5px;
+
+        span {
+            padding-bottom: 5px;
         }
 
         &:before {
@@ -63,19 +64,20 @@
 
 }
 
-@media (min-width: 992px) and (max-width: 1300px){
-    .about-img-container{
+@media (min-width: 992px) and (max-width: 1300px) {
+    .about-img-container {
         margin-left: auto;
         margin-right: 0;
     }
 }
 
-@media (max-width: 500px){
-    .about{
-        .about-img-container img{
+@media (max-width: 500px) {
+    .about {
+        .about-img-container img {
             width: 200px;
             height: 200px;
         }
+
         .about-img-container:after {
             width: 200px;
             height: 200px;
@@ -85,13 +87,13 @@
     }
 }
 
-@media (max-width: 500px){
-    .about{
+@media (max-width: 500px) {
+    .about {
 
         .about-img-container {
             width: 100%;
 
-            img{
+            img {
                 width: 180px;
                 height: 180px;
             }
@@ -102,4 +104,3 @@
         }
     }
 }
-
