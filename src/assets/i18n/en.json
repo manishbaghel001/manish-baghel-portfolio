@@ -10,7 +10,7 @@
     "Banner.ActionBtn": "Get in touch",
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "As a <span class='underline'>Senior System Engineer</span> at <span class='underline'>Infosys</span>, I am currently working on updating a financial institution's GWT legacy application to Angular.",
+        "As a <span class='underline'>Technology Analyst</span> at <span class='underline'>Infosys</span>, I am currently working on updating a financial institution's GWT legacy application to Angular.",
         "I am skilled in <span class='underline'>Angular, TypeScript, JavaScript, HTML, CSS, SASS, Reactive Forms, MongoDB, ExpressJS, Firebase, SQL, Karma, Jasmine, Git</span>, and <span class='underline'>Java</span>.",
         "My capabilities also include implementing dynamic web pages, optimizing sites, and suggesting and executing ideas that add value to the project I'm working on.",
         "I have a <span class='underline'>Bachelor of Technology</span> degree in <span class='underline'>Computer Science Engineering</span> from University Institute of Engineering and Technology, Kurukshetra University, earned in 2021. During my studies, I organized and participated in various technical events and workshops.",
@@ -21,7 +21,7 @@
     "Experience.Jobs": [
         {
             "Tab": "Infosys Ltd",
-            "Title": "Senior System Engineer | Fullstack developer",
+            "Title": "Technology Analyst | Fullstack developer",
             "Date": "June 2021 - Present",
             "Description": [
                 "Migrating legacy application to Angular, handling Java for reverse engineering.",
